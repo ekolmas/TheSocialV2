@@ -8,28 +8,35 @@
 </head>
 
 <body>
-
     <div class="menu">
         <nav class="menu__nav">
             <ul class="menu__list r-list">
-                <li class="menu__group">
-                    <a href="#0" class="menu__link r-link">Home</a>
-                </li>
-                <li class="menu__group">
-                    <a href="#0" class="menu__link r-link">About me</a>
-                </li>
-                <li class="menu__group">
-                    <a href="#0" class="menu__link r-link">Services</a>
-                </li>
-                <li class="menu__group">
-                    <a href="#0" class="menu__link r-link">Portfolio</a>
-                </li>
-                <li class="menu__group">
-                    <a href="#0" class="menu__link r-link">Blog</a>
-                </li>
-                <li class="menu__group">
-                    <a href="#0" class="menu__link r-link">Contacts</a>
-                </li>
+                <?php
+                session_start();
+                if (isset($_SESSION['user'])) {
+                    //If there is a user logged in
+                } else {
+                    //If there isnt a user logged in
+                ?>
+                    <li class="menu__group">
+                        <a href="#0" class="menu__link r-link">Home</a>
+                    </li>
+                    <li class="menu__group">
+                        <a href="#0" class="menu__link r-link">Collection</a>
+                    </li>
+                    <li class="menu__group">
+                        <a href="#0" class="menu__link r-link">FAQ</a>
+                    </li>
+                    <li class="menu__group">
+                        <a href="#0" class="menu__link r-link">Videos</a>
+                    </li>
+                    <li class="menu__group">
+                        <a href="#0" class="menu__link r-link">Login</a>
+                    </li>
+                    <li class="menu__group">
+                        <a href="#0" class="menu__link r-link">Sign Up</a>
+                    </li>
+                <?php } ?>
             </ul>
         </nav>
         <button class="menu__toggle r-button" type="button">
