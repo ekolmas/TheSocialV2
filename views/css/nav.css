@@ -1,4 +1,10 @@
 
+/*Font face*/
+@font-face {
+  font-family: acumin;
+  src: url(fonts/Acumin\ Variable\ Concept.ttf);
+}
+
 /*
 =====
 DEPENDENCES
@@ -295,10 +301,14 @@ DEPENDENCES
   
   .menu__group{
     --rLinkTextColor: var(--colorWhite);
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
+    font-family: acumin;
     padding: .5rem 2rem; 
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 100;
     text-transform: uppercase;
+  }
+  
+  .navlogo{
+    width: 250px;
   }
   

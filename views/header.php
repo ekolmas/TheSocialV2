@@ -19,6 +19,9 @@
                     //If there isnt a user logged in
                 ?>
                     <li class="menu__group">
+                        <a href="#0" class="menu__link r-link"><img src="views/images/logo2.png" class="navlogo"></a>
+                    </li>
+                    <li class="menu__group">
                         <a href="#0" class="menu__link r-link">Home</a>
                     </li>
                     <li class="menu__group">
