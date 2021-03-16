@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logoContainer {
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    height: 80px;
+}
+
+
+/*Insert boxes to see wire frame first*/
+
+.scene {
+    height: 1080px;
+    width: 1920px;
+}
+
+.first {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding-top: 1.2%;
+}
+
+.videoIntro {
+    height: 71%;
+    width: 50%;
+    margin-left: 5%;
+    background-color: aqua;
+}
+
+.productIntro {
+    height: 71%;
+    width: 37%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.productIntroCard {
+    height: 47.5%;
+    width: 100%;
+    background-color: brown;
+}

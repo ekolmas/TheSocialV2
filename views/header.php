@@ -19,25 +19,25 @@
                     //If there isnt a user logged in
                 ?>
                     <li class="menu__group">
-                        <a href="#0" class="menu__link r-link"><img src="views/images/logo2.png" class="navlogo"></a>
+                        <a href="#0" class="menu__link r-link" onclick="closeNav();"><img src="views/images/logo2.png" class="navlogo"></a>
                     </li>
                     <li class="menu__group">
-                        <a href="#0" class="menu__link r-link">Home</a>
+                        <a href="#0" class="menu__link r-link" onclick="closeNav();">Home</a>
                     </li>
                     <li class="menu__group">
-                        <a href="#0" class="menu__link r-link">Collection</a>
+                        <a href="#0" class="menu__link r-link" onclick="closeNav();">Collection</a>
                     </li>
                     <li class="menu__group">
-                        <a href="#0" class="menu__link r-link">FAQ</a>
+                        <a href="#" class="menu__link r-link" onclick="closeNav();">FAQ</a>
                     </li>
                     <li class="menu__group">
-                        <a href="#0" class="menu__link r-link">Videos</a>
+                        <a href="#0" class="menu__link r-link" onclick="closeNav();">Videos</a>
                     </li>
                     <li class="menu__group">
-                        <a href="#0" class="menu__link r-link">Login</a>
+                        <a href="#0" class="menu__link r-link" onclick="closeNav();">Login</a>
                     </li>
                     <li class="menu__group">
-                        <a href="#0" class="menu__link r-link">Sign Up</a>
+                        <a href="#0" class="menu__link r-link" onclick="closeNav();">Sign Up</a>
                     </li>
                 <?php } ?>
             </ul>
@@ -50,5 +50,6 @@
             </span>
         </button>
     </div>
+    <script src="views\js\jquery-3.5.0.min.js"></script>
     <script src="views/js/nav.js"></script>
 </body>
