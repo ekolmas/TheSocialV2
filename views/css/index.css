@@ -3,7 +3,13 @@
     padding: 0;
 }
 
+body {
+    width: 100%;
+}
+
 .logoContainer {
+    padding-top: 2%;
+    padding-bottom: 2%;
     width: 100%;
     text-align: center;
 }
@@ -16,8 +22,8 @@
 /*Insert boxes to see wire frame first*/
 
 .scene {
-    height: 1080px;
-    width: 1920px;
+    width: 100%;
+    height: 870px;
 }
 
 .first {

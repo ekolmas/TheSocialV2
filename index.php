@@ -14,6 +14,7 @@ require_once "./controllers/indexController.php";
     </div>
 
     <div class="scene">
+
         <div class="first blade">
             <article class="videoIntro">
 
