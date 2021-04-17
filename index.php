@@ -9,23 +9,21 @@ require_once "./controllers/indexController.php";
 </head>
 
 <body>
-    <div class="logoContainer">
-        <img src="views/images/logo3.png" alt="logo" class="logo">
-    </div>
-
-    <div class="scene">
-
-        <div class="first blade">
-            <article class="videoIntro">
-
-            </article>
-
-            <article class="productIntro">
-                <section class="productIntroCard"></section>
-                <section class="productIntroCard"></section>
-            </article>
+    <div class="page">
+        <div class="logoContainer">
+            <a href="#"><img src="views/images/logo3.png" alt="logo" class="logo"></a>
         </div>
-        <div class="second blade"></div>
-        <div class="third blade"></div>
+        <div class="video">
+            <video autoplay muted loop class="video1">
+                <source src="views\css\videos\Card_GreySmoke.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="intro">
+            
+        </div>
     </div>
+
+
+
 </body>
