@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Social Singapore</title>
     <link rel="stylesheet" href="views/css/nav.css">
+    <link rel="stylesheet" href="css/nav.css">
 </head>
 
 <body>
@@ -19,7 +20,20 @@
                     //If there isnt a user logged in
                 ?>
                     <li class="menu__group">
-                        <a href="#0" class="menu__link r-link" onclick="closeNav();"><img src="views/images/logo2.png" class="navlogo"></a>
+                        <a href="#0" class="menu__link r-link" onclick="closeNav();">
+                            <?php
+                            if (basename(getcwd()) == "views") {
+                            ?>
+                                <img src="css/images/logo2.png" class="navlogo">
+                            <?php
+                            } else {
+                            ?>
+                                <img src="views/css/images/logo2.png" class="navlogo">
+
+                            <?php
+                            }
+                            ?>
+                        </a>
                     </li>
                     <li class="menu__group">
                         <a href="#0" class="menu__link r-link" onclick="closeNav();">Home</a>
@@ -51,5 +65,7 @@
         </button>
     </div>
     <script src="views\js\jquery-3.5.0.min.js"></script>
+    <script src="js\jquery-3.5.0.min.js"></script>
     <script src="views/js/nav.js"></script>
+    <script src="js/nav.js"></script>
 </body>

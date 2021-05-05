@@ -13,5 +13,6 @@ if(isset($_GET["function"])){
 function redirectToProfile($serialNo){
     global $link;
 
+    header("location:./views/profile.php?".$serialNo);
 }
 ?>

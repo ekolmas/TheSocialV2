@@ -19,6 +19,7 @@ if (strpos($query, "&i=") !== false) {
 } else {
     $query = parse_url($url, PHP_URL_QUERY);
 }
+//$query is the serial number at the back
 
 redirectToProfile($query);
 

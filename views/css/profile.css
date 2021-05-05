@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: acumin;
+}
+
+body {
+    background-color: snow;
+}
+
+.profileHeader {
+    background-size: cover;
+    background-repeat: none;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.socialMediaContainer h2 {
+    margin-left: 30px;
+}
+
+.scrollMenu {
+    margin-top: 20px;
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.scrollMenu div {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.scrollMenu div img {
+    height: 80px;
+    width: 80px;
+}

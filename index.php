@@ -11,9 +11,9 @@ require_once "./controllers/indexController.php";
 <body>
     <div class="page">
         <div class="logoContainer">
-            <a href="#"><img src="views/images/logo3.png" alt="logo" class="logo"></a>
+            <a href="#"><img src="views/css/images/logo3.png" alt="logo" class="logo"></a>
         </div>
-        <div class="video">
+        <div class="videoContainer">
             <video autoplay muted loop class="video1">
                 <source src="views\css\videos\Card_GreySmoke.mp4" type="video/mp4">
                 Your browser does not support the video tag.
