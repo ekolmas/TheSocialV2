@@ -20,7 +20,18 @@ require_once "./controllers/indexController.php";
             </video>
         </div>
         <div class="intro">
-            
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="views/css/images/front.png" alt="Avatar" class="introCardFront">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>John Doe</h1>
+                        <p>Architect & Engineer</p>
+                        <p>We love that guy</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
