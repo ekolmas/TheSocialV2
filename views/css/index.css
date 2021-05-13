@@ -47,6 +47,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-bottom: 3px solid black;
 }
 
 
@@ -68,7 +69,7 @@ body {
 
 .flip-card {
     background-color: transparent;
-    width: 600px;
+    width: 700px;
     height: 400px;
     perspective: 1000px;
 }
@@ -97,12 +98,13 @@ body {
 }
 
 .flip-card-front {
-    background-color: #bbb;
+    background-color: transparent;
     color: black;
 }
 
 .flip-card-back {
-    background-color: #2980b9;
+    background-color: black;
     color: white;
     transform: rotateY(180deg);
+    border-radius: 20px;
 }
